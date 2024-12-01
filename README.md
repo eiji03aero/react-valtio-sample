@@ -1,7 +1,12 @@
 # React x Valtio sample
-- article link will be here
+- An experimental sample project to implement a React x Valtio app.
 
-# Needs improvement
+# What is this?
+- [Article here (in Japanese)]()
+- This is to experiment how can we extract the control of business logic and state management to outside of React realm.
+- Trying to accomplish it with [Valtio](https://github.com/pmndrs/valtio);
+
+# Things that needs an improvement
 ## Rendering optimization when state updates
 - For now the valtio state update triggers rendernig for components regardless of the state they need.
 - Some sort of useSelector implementation is needed for further optimization
@@ -13,12 +18,5 @@
 # Todo
 - [x] implement projects page
     - create wizard
-- [ ] write test for service
-    - create wizard service
-
-## Memo
-
-```
-Because I'm such an awful xxxx---.
-(Oh thank you)
-```
+- [x] Fill out the readme
+    - make it looking better
